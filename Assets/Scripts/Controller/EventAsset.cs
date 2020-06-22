@@ -32,6 +32,7 @@ public class EventAsset : ScriptableObject
     public string timelineAsset_Path;
 
     [Header("事件执行后激活的卡牌")]
+    //[SerializeField]
     public int[] activeTargets;
 
     [Header("事件执行后禁用的卡牌")]
@@ -73,4 +74,14 @@ public class EventAsset : ScriptableObject
 
     [Header("显式指定下一步骤")]
     public NextStateInfo nextStateInfo;
+
+    [HideInInspector]
+    public bool ShowIninspector;
+    [HideInInspector]
+    public bool ShowIninspector2;
+    [HideInInspector]
+    public bool ShowIninspector3;
+    [HideInInspector]
+    public bool ShowIninspector4;
+
 }

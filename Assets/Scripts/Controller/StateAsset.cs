@@ -9,13 +9,18 @@ using UnityEngine.Timeline;
 ***********************************************/
 
 [CreateAssetMenu(menuName = "StateAsset", fileName = "stateAsset", order = 2)]
+
 public class StateAsset : ScriptableObject
 {
     [Header("状态名称")]
     public string stateName;
 
     [SerializeField]
-    [Header("进入步骤改变图片的UI物体及替换的图片")]
+    [Header("进入步骤后改变的模型移动方式")]
+    public MoveArea[] moveArea;
+
+    [SerializeField]
+    [Header("进入步骤改变的UI选项及图片")]
     public ChangingOptions[] optionSprite;
 
     public string[] sprite_Paths;
@@ -28,6 +33,10 @@ public class StateAsset : ScriptableObject
 
     [Header("进入步骤后显示的左上角操作提示")]
     public string operationHintText;
+
+    [SerializeField]
+    [Header("进入步骤替换新的模型")]
+    public TargetSwap[] targetswap;
 
     [Header("步骤激活的物体名称")]
     public EventObjectString[] gameObjects_Active;
@@ -47,14 +56,6 @@ public class StateAsset : ScriptableObject
     [Header("结束步骤禁用的卡牌编号")]
     public int[] disableTargets_Exit;
 
-    [SerializeField]
-    [Header("进入步骤后改变的模型移动方式")]
-    public MoveArea[] moveArea;
-
-    [SerializeField]
-    [Header("进入步骤替换新的模型")]
-    public TargetSwap[] targetswap;
-
     [Header("进入步骤后播放的Timeline（可无，播放完后才会进行进入新步骤初始化）")]
     [XmlIgnore] public TimelineAsset enterStateTimeline;
 
@@ -65,12 +66,22 @@ public class StateAsset : ScriptableObject
 
     public string exitStateTimeline_Path;
 
-    [Header("最后一个事件触发后自动隐藏语音和操作提示")]
+    [Header("最后一个事件触发自动隐藏语音和操作提示")]
     public bool autoHideHint;
 
-    [Header("步骤事件数目")]
+    [Space(10)]
+    [Header("步骤目标完成情况")]
     public bool[] effects;
 
     [Header("课程进度，该步骤结束后设置，若为0则不会更新进度")]
     public float progress;
+
+    [HideInInspector]
+    public bool ShowInspector;
+    [HideInInspector]
+    public bool ShowInspector2;
+    [HideInInspector]
+    public bool ShowInspector3;
+    [HideInInspector]
+    public bool ShowInspector4;
 }

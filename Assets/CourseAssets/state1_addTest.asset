@@ -32,7 +32,22 @@ MonoBehaviour:
   gameObjects_hide:
   - name: "\u8BD5\u7BA1_tips"
     triggerTiming: 0
-  moveArea: []
+  moveArea:
+  - updatePos: 0
+    updateAngle: 0
+    index: 4
+    changeArea: 0
+    minX: 0
+    maxX: 0
+    minY: 0
+    maxY: 0
+    minZ: 0
+    maxZ: 0
+    changeMoveSpace: 1
+    moveSpace: 0
+    changeRatio: 0
+    ratio: 0
+    removable: 0
   targetswap: []
   canLoop: 0
   hideOperationHint: 0
@@ -44,3 +59,7 @@ MonoBehaviour:
   nextStateInfo:
     loadAnotherState: 0
     index: 0
+  ShowIninspector: 1
+  ShowIninspector2: 1
+  ShowIninspector3: 1
+  ShowIninspector4: 1
