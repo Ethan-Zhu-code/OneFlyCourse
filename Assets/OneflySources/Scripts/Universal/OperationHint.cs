@@ -6,6 +6,7 @@ using DG.Tweening;
 using DevelopEngine;
 using Universal.Audio;
 
+// Please Update this script to its latest version.
 namespace Universal
 {
     public class OperationHint : MonoSingleton<OperationHint>
