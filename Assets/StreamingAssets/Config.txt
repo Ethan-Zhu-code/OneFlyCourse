@@ -1,0 +1,48 @@
+﻿
+[Scene]
+50 = Start
+52 = ClassControl
+0 =  ViewCard
+56 = TestInfo
+106 = TestTube
+67 = C2H5OH
+19 = H2SO4
+66 = Tile
+68 = IronSupport
+69 = Lamp
+84 = CH3COOH
+85 = Na2CO3
+74 = Rubber
+90 = Conclusion
+
+[CourseName]
+name = 乙酸乙酯的制备
+0 = 乙酸乙酯的制备
+1 = 
+2 = 
+3 = 
+
+[Purpose]
+name =
+0 = 
+
+[Subject]
+name = 化学
+
+[AudioHint]
+0 = 对应音频内容
+
+[OperationHint]
+0 = 测试测试测试测试测试测试测试测试测试测试测试测试测试测试
+
+[OperationPoint]
+1 = haha
+2 = hehe
+
+[ErrorPoint]
+1 = 药品放入顺序不对。;10;应先向试管中加入无水乙醇，再加入浓硫酸。
+2 = haha;10;hahaha
+
+[AnswerInfo]
+1 = question1;A.a+B.b+C.c+D.d;A
+2 = question2;正确+错误;错误
