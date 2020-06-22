@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70464e3cc19cc414dac0c8c9bf8fc601, type: 3}
+  m_Name: state2
+  m_EditorClassIdentifier: 
+  stateName: state2
+  optionSprite: []
+  sprite_Paths: []
+  audioHintContent:
+    audioHintText: "\u8BF7\u9009\u62E9\u9996\u5148\u5012\u5165\u8BD5\u7BA1\u4E2D\u7684\u836F\u54C1\u3002"
+    audioHintClip: {fileID: 8300000, guid: 4cd9034adde19c543acd4221b8692ba1, type: 3}
+  audioHintClip_ID_Path: 
+  operationHintText: "\u65CB\u8F6C\u65E0\u6C34\u4E59\u9187\u5361\u724C\u6216\u6D53\u786B\u9178\u5361\u724C\u81F3\u5012\u5165\u9009\u9879\uFF0C\u9009\u62E9\u9996\u5148\u5012\u5165\u8BD5\u7BA1\u4E2D\u7684\u6DB2\u4F53\u3002"
+  gameObjects_Active:
+  - name: C2H5OH_Right
+    triggerTiming: 0
+  - name: H2SO4_Right
+    triggerTiming: 0
+  gameObjects_Hide: []
+  activeTargets_Enter: 
+  disableTargets_Enter: 
+  activeTargets_Exit: 
+  disableTargets_Exit: 
+  moveArea: []
+  targetswap: []
+  enterStateTimeline: {fileID: 0}
+  enterStateTimeline_Path: 
+  exitStateTimeline: {fileID: 0}
+  exitStateTimeline_Path: 
+  autoHideHint: 0
+  effects: 00
+  progress: 0

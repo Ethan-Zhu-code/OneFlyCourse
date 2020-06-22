@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70464e3cc19cc414dac0c8c9bf8fc601, type: 3}
+  m_Name: state1
+  m_EditorClassIdentifier: 
+  stateName: state1
+  optionSprite: []
+  sprite_Paths: []
+  audioHintContent:
+    audioHintText: "\u6309\u7167\u4E0A\u5C4F\u63D0\u793A\u4F9D\u6B21\u653E\u5165\u8BD5\u7BA1\u30013\u6BEB\u5347\u65E0\u6C34\u4E59\u9187\u30012\u6BEB\u5347\u6D53\u786B\u9178\u3002"
+    audioHintClip: {fileID: 8300000, guid: 0ad39adeffa926d4894cafd350f8681e, type: 3}
+  audioHintClip_ID_Path: 
+  operationHintText: "\u6309\u7167\u4E0A\u5C4F\u63D0\u793A\u4F9D\u6B21\u653E\u5165\u5BF9\u5E94\u5361\u724C\u3002"
+  gameObjects_Active:
+  - name: "\u8BD5\u7BA1_tips"
+    triggerTiming: 0
+  gameObjects_Hide: []
+  activeTargets_Enter: 04000000
+  disableTargets_Enter: 
+  activeTargets_Exit: 
+  disableTargets_Exit: 
+  moveArea: []
+  targetswap: []
+  enterStateTimeline: {fileID: 0}
+  enterStateTimeline_Path: 
+  exitStateTimeline: {fileID: 11400000, guid: e305ec06188f91143a9f859b2f824158, type: 2}
+  exitStateTimeline_Path: 
+  autoHideHint: 0
+  effects: 000000
+  progress: 0

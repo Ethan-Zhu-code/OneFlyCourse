@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70464e3cc19cc414dac0c8c9bf8fc601, type: 3}
+  m_Name: state6
+  m_EditorClassIdentifier: 
+  stateName: state6
+  optionSprite: []
+  sprite_Paths: []
+  audioHintContent:
+    audioHintText: "\u5411\u8BD5\u7BA1\u4E2D\u52A0\u5165\u5C11\u91CF\u788E\u74F7\u7247\u3002"
+    audioHintClip: {fileID: 8300000, guid: dbf4e1dc9ab527e42815eed727ebd1c1, type: 3}
+  audioHintClip_ID_Path: 
+  operationHintText: "\u65CB\u8F6C\u788E\u74F7\u7247\u5361\u724C\u81F3\u53D6\u7528\u9009\u9879\u3002"
+  gameObjects_Active:
+  - name: Tile_Right
+    triggerTiming: 0
+  gameObjects_Hide: []
+  activeTargets_Enter: 
+  disableTargets_Enter: 
+  activeTargets_Exit: 
+  disableTargets_Exit: 
+  moveArea: []
+  targetswap: []
+  enterStateTimeline: {fileID: 0}
+  enterStateTimeline_Path: 
+  exitStateTimeline: {fileID: 0}
+  exitStateTimeline_Path: 
+  autoHideHint: 0
+  effects: 00
+  progress: 0

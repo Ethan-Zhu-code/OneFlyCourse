@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70464e3cc19cc414dac0c8c9bf8fc601, type: 3}
+  m_Name: state14
+  m_EditorClassIdentifier: 
+  stateName: state14
+  optionSprite: []
+  sprite_Paths: []
+  audioHintContent:
+    audioHintText: "\u632F\u8361\u9971\u548C\u78B3\u9178\u94A0\u6EB6\u6DB2\uFF0C\u5E76\u9759\u7F6E\u3002"
+    audioHintClip: {fileID: 8300000, guid: fcf6cfd0c707fdc488630c73939d0ab6, type: 3}
+  audioHintClip_ID_Path: 
+  operationHintText: "\u65CB\u8F6C\u9971\u548C\u78B3\u9178\u94A0\u6EB6\u6DB2\u5361\u724C\u81F3\u632F\u8361\u9009\u9879\u3002"
+  gameObjects_Active:
+  - name: Na2CO3_Left
+    triggerTiming: 0
+  gameObjects_Hide: []
+  activeTargets_Enter: 
+  disableTargets_Enter: 
+  activeTargets_Exit: 
+  disableTargets_Exit: 
+  moveArea: []
+  targetswap: []
+  enterStateTimeline: {fileID: 0}
+  enterStateTimeline_Path: 
+  exitStateTimeline: {fileID: 0}
+  exitStateTimeline_Path: 
+  autoHideHint: 0
+  effects: 00
+  progress: 0

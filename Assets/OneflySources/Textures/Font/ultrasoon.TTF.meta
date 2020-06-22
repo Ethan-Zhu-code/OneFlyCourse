@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0135c0d07fe14a84d88de9e31b2adf31
+timeCreated: 1530523978
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ultrasoon-Light
+  fontNames:
+  - ultrasoon-Light
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

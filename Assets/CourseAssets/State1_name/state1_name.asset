@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70464e3cc19cc414dac0c8c9bf8fc601, type: 3}
+  m_Name: state1_name
+  m_EditorClassIdentifier: 
+  stateName: state1
+  moveArea:
+  - updatePos: 1
+    updateAngle: 0
+    index: 0
+    changeArea: 0
+    minX: 0
+    minY: 2
+    minZ: 0
+    maxX: 3
+    maxY: 0
+    maxZ: 0
+    changeMoveSpace: 1
+    moveSpace: 0
+    changeRatio: 0
+    ratio: 0
+    removable: 0
+  optionSprite:
+  - sprite: {fileID: 21300000, guid: 2fa4d0e028ab8c4469f5ad15193a7301, type: 3}
+    optionName: "\u6807\u7B7E\u6846"
+  - sprite: {fileID: 21300000, guid: 195cb8ed16b7f0a499cf4eb025437bf3, type: 3}
+    optionName: "\u6807\u7B7E\u6846"
+  sprite_Paths:
+  - "Assets/OneflySources/Textures/DownScreen/UICard/0\u7B2C\u4E00\u4EBA\u79F0\u89C6\u89D2\u80CC\u9762.jpg"
+  - "Assets/OneflySources/Textures/DownScreen/UICard/\u5B9E\u9A8C\u4FE1\u606F\u80CC\u9762.jpg"
+  audioHintContent:
+    audioHintText: aaaaa
+    audioHintClip: {fileID: 8300000, guid: 7d90fa2d41cc8db469cbd63db6ea03c8, type: 3}
+  audioHintClip_ID_Path: Assets/OneflySources/Sounds/right.wav
+  operationHintText: ffff
+  targetswap:
+  - targetIndex: 0
+    newTargetName: "\u6CE5\u4E09\u89D2"
+  - targetIndex: 0
+    newTargetName: "\u6CE5\u4E09\u89D2"
+  gameObjects_Active:
+  - name: "\u73BB\u7483\u68D2_tips"
+    activeWithTimeline: 0
+  gameObjects_Hide:
+  - name: 6
+    activeWithTimeline: 0
+  activeTargets_Enter: 0000000002000000
+  disableTargets_Enter: 01000000
+  activeTargets_Exit: 0000000003000000
+  disableTargets_Exit: 00000000
+  enterStateTimeline: {fileID: 11400000, guid: 403509a9a2b5b8344b59d569640d7c81, type: 2}
+  enterStateTimeline_Path: Assets/Resources/Timeline/Test.playable
+  exitStateTimeline: {fileID: 11400000, guid: 403509a9a2b5b8344b59d569640d7c81, type: 2}
+  exitStateTimeline_Path: Assets/Resources/Timeline/Test.playable
+  autoHideHint: 0
+  effects: 00
+  progress: 0

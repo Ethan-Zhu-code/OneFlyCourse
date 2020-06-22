@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70464e3cc19cc414dac0c8c9bf8fc601, type: 3}
+  m_Name: state9
+  m_EditorClassIdentifier: 
+  stateName: state9
+  optionSprite: []
+  sprite_Paths: []
+  audioHintContent:
+    audioHintText: "\u5C06\u8BD5\u7BA1\u5939\u6301\u5728\u94C1\u67B6\u53F0\u4E0A\u3002"
+    audioHintClip: {fileID: 8300000, guid: 499fb691fb028994fb7b750e2eb1c28d, type: 3}
+  audioHintClip_ID_Path: 
+  operationHintText: "\u65CB\u8F6C\u8BD5\u7BA1\u5361\u724C\u81F3\u5939\u6301\u9009\u9879\u3002"
+  gameObjects_Active:
+  - name: TestTube_Right
+    triggerTiming: 0
+  gameObjects_Hide: []
+  activeTargets_Enter: 
+  disableTargets_Enter: 
+  activeTargets_Exit: 
+  disableTargets_Exit: 
+  moveArea: []
+  targetswap: []
+  enterStateTimeline: {fileID: 0}
+  enterStateTimeline_Path: 
+  exitStateTimeline: {fileID: 0}
+  exitStateTimeline_Path: 
+  autoHideHint: 0
+  effects: 00
+  progress: 0

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="gb2312"?>
+<EventAsset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>state1_event_eventname</name>
+  <hideFlags>None</hideFlags>
+  <eventName>AKA</eventName>
+  <stateName>state2</stateName>
+  <audiClip_Path />
+  <audioHintContent>
+    <audioHintText />
+  </audioHintContent>
+  <audioHintClip_ID_Path />
+  <timelineAsset_Path>Assets/Resources/Timeline/Test.playable</timelineAsset_Path>
+  <canLoop>false</canLoop>
+  <activeTargets />
+  <disableTargets />
+  <optionSprites />
+  <sprite_Paths />
+  <gameObejcts_active />
+  <gameObjects_hide>
+    <EventObjectString>
+      <name>玻璃棒_tips</name>
+      <activeWithTimeline>BeforeTimeline</activeWithTimeline>
+    </EventObjectString>
+  </gameObjects_hide>
+  <errorInfo>
+    <errorIndex>0</errorIndex>
+    <hideHintTime>0</hideHintTime>
+    <errorContent />
+  </errorInfo>
+  <moveArea />
+  <hideOperationHint>false</hideOperationHint>
+  <hideAudioHint>false</hideAudioHint>
+  <triggerWhilePlaying>false</triggerWhilePlaying>
+  <nextStateInfo>
+    <loadAnotherState>false</loadAnotherState>
+    <index>0</index>
+  </nextStateInfo>
+</EventAsset>

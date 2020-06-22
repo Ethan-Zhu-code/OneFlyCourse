@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7e96dee8023d548a98c53524f7eebc, type: 3}
+  m_Name: state4_addCH3COOH
+  m_EditorClassIdentifier: 
+  eventName: state4_addCH3COOH
+  stateName: state4
+  audioClip: {fileID: 0}
+  audiClip_Path: 
+  audioHintContent:
+    audioHintText: 
+    audioHintClip: {fileID: 0}
+  audioHintClip_ID_Path: 
+  timelineAsset: {fileID: 0}
+  timelineAsset_Path: 
+  activeTargets: 08000000
+  disableTargets: 
+  optionSprites: []
+  sprite_Paths: []
+  gameObejcts_active:
+  - name: "\u788E\u74F7\u7247_tips"
+    triggerTiming: 0
+  gameObjects_hide:
+  - name: "\u65E0\u6C34\u4E59\u9178_tips"
+    triggerTiming: 0
+  moveArea: []
+  targetswap: []
+  canLoop: 0
+  hideOperationHint: 0
+  hideAudioHint: 0
+  errorInfo:
+    errorIndex: 0
+    hideHintTime: 0
+    errorContent: 
+  nextStateInfo:
+    loadAnotherState: 0
+    index: 0
